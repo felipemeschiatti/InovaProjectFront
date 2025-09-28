@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: #888;
+    margin-left: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header nav a.active {
+    color: #00529b;
+}
+
+header nav a:hover {
+    color: #00529b;
+    transform: scale(1.1);
+}
+
+header .fa-bars {
+    font-size: 24px;
+}
+
+header .logo {
+    height: 30px;
+}
+
+main {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ranking-header {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.ranking-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.ranking-header .innovation-icon {
+    font-size: 40px;
+    color: #00529b;
+}
+
+.ranking-list .ranking-item {
+    background-color: #00529b;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+}

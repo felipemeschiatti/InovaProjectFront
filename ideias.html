@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovação - Eurofarma</title>
+    <link rel="stylesheet" href="ideias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <i class="fas fa-bars"></i>
+        <img src="https://via.placeholder.com/150x40.png?text=Eurofarma" alt="Eurofarma Logo" class="logo">
+        <nav>
+            <a href="home.html">
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="ranking.html">
+                <i class="fas fa-trophy"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="#" class="active">
+                <i class="fas fa-lightbulb"></i>
+            </a>
+            <a href="profile.html">
+                <i class="fas fa-user"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="user-profile">
+            <img src="https://via.placeholder.com/80" alt="User Avatar" class="avatar">
+            <div class="user-info">
+                <h2>Felipe Pereira Meschiatti</h2>
+                <p>Desenvolvedor Pleno</p>
+            </div>
+        </div>
+
+        <form class="innovation-form">
+            <input type="text" placeholder="Título da sua inovação">
+            <textarea placeholder="Escreva aqui:"></textarea>
+            <button type="button" class="upload-btn">UPLOAD DE ARQUIVO</button>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+        <div id="success-message" class="success-message">ideia enviada com sucesso!</div>
+    </main>
+
+    <script>
+        document.querySelector('.innovation-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio real do formulário
+            const successMessage = document.getElementById('success-message');
+            successMessage.style.display = 'block';
+
+            // Opcional: esconder a mensagem após alguns segundos
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 3000); // A mensagem desaparecerá após 3 segundos
+        });
+    </script>
+
+</body>
+</html>

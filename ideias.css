@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: #888;
+    margin-left: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header nav a.active {
+    color: #00529b;
+}
+
+header nav a:hover {
+    color: #00529b;
+    transform: scale(1.1);
+}
+
+header .fa-bars {
+    font-size: 24px;
+    color: #333;
+}
+
+header .logo {
+    height: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.user-profile .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #888;
+}
+
+.innovation-form input,
+.innovation-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.innovation-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.innovation-form .upload-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.innovation-form .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.success-message {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+}

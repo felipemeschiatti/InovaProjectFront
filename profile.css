@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+header .back-arrow {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header .logo {
+    height: 30px;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+main {
+    padding: 20px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-profile .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #888;
+}
+
+.progress-section {
+    margin-bottom: 30px;
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #888;
+    font-size: 14px;
+}
+
+.progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #ffeb3b;
+    height: 100%;
+}
+
+.achievements-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.achievements-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.achievements-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.achievements-header span {
+    color: #00529b;
+    font-size: 14px;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.achievement-icon {
+    font-size: 24px;
+    color: #00529b;
+    background-color: #e6f0fa;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.achievement-item .progress-bar-container {
+    flex-grow: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+footer nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #888;
+    font-size: 12px;
+}
+
+footer nav a.active {
+    color: #00529b;
+}
+
+footer nav a i {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+footer nav a.active span {
+    font-weight: bold;
+}
