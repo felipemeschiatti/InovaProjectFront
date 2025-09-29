@@ -58,7 +58,7 @@ main {
 }
 
 .innovation-icon {
-    font-size: 30px;
+    font-size: 80px; /* Aumentei significativamente o tamanho do ícone */
     color: #00529b;
     margin-right: 20px;
     background-color: #e6f0fa;
@@ -68,13 +68,14 @@ main {
 
 .innovation-text h2 {
     margin: 0 0 5px 0;
-    font-size: 16px;
+    font-size: 28px; /* Aumentei o tamanho do título */
+    font-weight: bold;
     color: #00529b;
 }
 
 .innovation-text p {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px; /* Aumentei o tamanho do texto */
     line-height: 1.4;
     color: #333;
 }

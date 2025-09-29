@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-size: 24px; /* Aumentei significativamente o tamanho da fonte padrão */
 }
 
 .login-container {
@@ -63,4 +64,53 @@ form button {
 
 .forgot-password:hover {
     text-decoration: underline;
+}
+
+.innovation-card {
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.innovation-card .innovation-icon i {
+    font-size: 72px; /* Aumentei significativamente o tamanho do ícone de inovação */
+}
+
+.comments-section {
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section .comment i {
+    font-size: 30px; /* Aumentei significativamente o tamanho dos ícones de comentários */
+}
+
+.comments-section .comment-body p {
+    font-size: 22px; /* Aumentei significativamente o tamanho do texto nos comentários */
+}
+
+header nav a i {
+    font-size: 36px; /* Aumentei significativamente o tamanho dos ícones no cabeçalho */
+}
+
+.admin-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.admin-icon:hover {
+    transform: scale(1.1);
 }
